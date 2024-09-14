@@ -1,0 +1,212 @@
+/******************************************** Diffrent screens ********************************/
+@media (max-width: 950px) {
+    .cardbtn {
+      padding: 3px 4px;
+      font-weight: 600;
+    }
+    .menuicon {
+      display: inline-block;
+    }
+    .closeicon {
+      display: none;
+    }
+  
+    .navbarstyle {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 20rem;
+      /* display: flex; */
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .dropdown-menu {
+      display: block;
+    }
+    .navbar {
+      justify-content: space-around;
+    }
+    .navbarlogo {
+      position: relative;
+      left: 0;
+      /* padding-right: 250px; */
+      width: 700px;
+    }
+  
+    .navbarstyle li a {
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      /* display: block; */
+    }
+    .introsection {
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .container-responsive {
+      display: flex;
+      flex-direction: column;
+      padding: 30px 0px;
+      align-items: center;
+      gap: 25px;
+    }
+  
+    #cashlessvideo {
+      width: 340px;
+      float: right;
+    }
+    .introleftside {
+      width: fit-content;
+      /* justify-content: center; */
+      /* align-items: center; */
+    }
+    .introrightside {
+      width: fit-content;
+    }
+    .aboutleftside {
+      width: fit-content;
+    }
+    .aboutrightside {
+      width: fit-content;
+    }
+  
+    .offersrightside {
+      width: 400px;
+    }
+    .fit-content {
+      width: fit-content;
+    }
+    .sponsors {
+      width: 85px;
+    }
+    #_FAQ {
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
+  /************************************** Phone Screen **************************/
+  @media (max-width: 460px) {
+    .navbarlogo {
+      right: 9%;
+      left: auto;
+    }
+    .navbarlogo img{
+      width: 8rem;
+      padding: 5px 4px;
+      margin: 5px 3px;
+    }
+    .cardbtn {
+      padding: 2px 4px;
+      font-weight: 500;
+    }
+    .introsection {
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .About {
+      /* padding-top: 30px;
+      padding-left: 20px; */
+      /* padding-right: 20px; */
+    }
+    .aboutimage {
+      width: 95%;
+    }
+    .About .container-responsive .rightside {
+      padding: 0px;
+    }
+  
+    .About .container-responsive .rightside p {
+      padding: 12px 12px;
+    }
+    .About .container-responsive .leftside {
+      padding: 0px;
+      align-self: center;
+    }
+    .paywithphone {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .Offers {
+      /* padding-top: 30px; */
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .offersrightside {
+      width: 350px;
+    }
+    .sponsors {
+      width: 75px;
+      padding-right: 10px;
+      /* padding-left: 0; */
+      /* gap: 4px;
+          margin-left: 2px;
+          margin-right: 2px; */
+    }
+  
+    .btn-comingsoon {
+      margin-left: 2px;
+      margin-right: 2px;
+      padding: 10px;
+    }
+    #cashlessvideo {
+      width: 340px;
+    }
+    .cashlesscontainer .leftside {
+      padding-left: 0px;
+    }
+    .cityimages .img img {
+      height: auto;
+    }
+    .expandicon {
+      left: 30%;
+    }
+  
+    #_FAQ {
+      align-items: center;
+      text-align: center;
+    }
+    .footer {
+      padding-top: 2px;
+      padding-bottom: 11px;
+    }
+  }
+  
+  @media (max-width: 365px) {
+    .sponsors {
+      gap: 10px;
+    }
+    .wbtclogo {
+      height: 55px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .socialmediaMain .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .socialmediaMain .container .leftside .video {
+      width: 330px;
+    }
+    .socialmediaMain .container .leftside {
+      align-items: center;
+      display: flex;
+      width: fit-content;
+    }
+    .socialmediaMain .container .rightside {
+      text-align: center;
+      width: fit-content;
+      background-color: rgb(229 231 235);
+    }
+    .socialmediaMain .container .rightside .text {
+      padding: 20px;
+    }
+  }

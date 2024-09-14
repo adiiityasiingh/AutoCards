@@ -1,0 +1,537 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta property="og:title" content="AutoCards - India's first Auto card">
+  <meta property="og:description"
+    content="India's first Autocard. Built with full-stack tech. Backed by the principles of simplicity, transparency, and giving back control to the user">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <title>Autocards - India's first Auto card</title>
+  <!-- <link rel="icon rounded-2xl" type="image/x-icon" href="Images/favicon-16x16.png"> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+  <link rel="manifest" href="Images/site.webmanifest">
+  <link rel="mask-icon" href="Images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+
+  <link rel="stylesheet" href="\TailwindCSS\output.css">
+  <link rel="stylesheet" href="style!v=2.css">
+  <link rel="stylesheet" href="style!v=2.js">
+  <link rel="stylesheet" href="btn.css">
+  <link rel="stylesheet" href="responsive.css">
+  <meta name="description"
+    content="India's first Autocard. Built with full-stack tech. Backed by the principles of simplicity, transparency, and giving back control to the user. Enjoy benefits like reward points, no hidden charges and more.">
+  <meta property="og:description"
+    content="India's first Autocard. Built with full-stack tech. Backed by the principles of simplicity, transparency, and giving back control to the user. Enjoy benefits like reward points, no hidden charges and more.">
+  <meta property="og:site_name" content="AutoCards - India's first Auto card">
+  <meta property="og:title" content="AutoCards - India's first Auto card">
+  <meta name="twitter:title" content="AutoCards - India's first Auto card">
+  <meta itemprop="name" content="AutoCards - India's first Auto card">
+  <meta name="application-name" content="AutoCards - India's first Auto card">
+  <meta itemprop="description"
+    content="India's first Autocard. Built with full-stack tech. Backed by the principles of simplicity, transparency, and giving back control to the user. Enjoy benefits like reward points, no hidden charges and more.">
+  <meta property="og:description"
+    content="India's first Autocard. Built with full-stack tech. Backed by the principles of simplicity, transparency, and giving back control to the user. Enjoy benefits like reward points, no hidden charges and more.">
+  <meta name="twitter:description"
+    content="India's first Autocard. Built with full-stack tech. Backed by the principles of simplicity, transparency, and giving back control to the user. Enjoy benefits like reward points, no hidden charges and more.">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AutoCards - India's first Auto card",
+      "alternateName": ["AutoCards Pvt. Ltd.", "Introducig india's First AutoCard"],
+      "url": "https://auto-cards.online/"
+    }
+  </script>
+</head>
+
+<body>
+  <!------------------------------------ preloader ---------------------------------------->
+  <div id="preloader">
+    <div id="loader"></div>
+    <span></span>
+  </div>
+  <button onclick="scrollToTop()" class="scrollTopBtn" id="scrollTopBtn">
+    <span style="font-size: 25px; font-weight: 400;" class="material-symbols-outlined">
+      keyboard_arrow_up
+    </span>
+  </button>
+
+
+  <!----------------------------------------- Navbar ------------------------------------------>
+
+  <nav
+    class="navbar my-auto paddingcommon px-2 top-0 flex gap-8 justify-center items-center bg-white text-black border sticky">
+    <div class="navbarlogo  w-1/3">
+      <a href="index.html"><img class="rounded-md -12 hover:cursor-pointer" src="Images/Logonew.png" alt="AutoCards">
+      </a>
+    </div>
+
+    <span class="menuicon material-symbols-outlined">
+      menu
+    </span>
+    <span class="closeicon material-symbols-outlined">
+      close
+    </span>
+    <div>
+      <ul class="p-2 navbarstyle flex items-center content-center space-x-8 gap-1">
+        <li
+          class="flex styletest justify-center items-center hover:text-red-500 hover:bg-gay-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+          <span class="material-symbols-outlined">home</span><a href="index.html">Home</a>
+        </li>
+        <li
+          class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold">
+          <span class="material-symbols-outlined">
+            psychology_alt
+          </span>
+          <a href="Aboutus.html">About Us</a>
+        </li>
+        <li
+          class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+          <span class="material-symbols-outlined">
+            celebration
+          </span><a href="#Offers">Offers</a>
+        </li>
+        <li
+          class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+          <span class="material-symbols-outlined">
+            quiz
+          </span><a href="#FAQ">FAQ</a>
+        </li>
+        <li
+          class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+          <span class="material-symbols-outlined">
+            apartment
+          </span><a href="#Our_">Our Cities</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="dropdown-menu">
+
+      <li
+        class="flex item justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+        <span class="material-symbols-outlined">home</span><a href="index.html">Home</a>
+      </li>
+      <li
+        class="flex item justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+        <span class="material-symbols-outlined">
+          psychology_alt
+        </span>
+        <a href="Aboutus.html">About Us</a>
+      </li>
+      <li
+        class="flex item justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+        <span class="material-symbols-outlined">
+          celebration
+        </span><a href="#Offers">Offers</a>
+      </li>
+      <li
+        class="flex item justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+        <span class="material-symbols-outlined">
+          quiz
+        </span><a href="#FAQ">FAQ</a>
+      </li>
+      <li
+        class="flex item justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+        <span class="material-symbols-outlined">
+          apartment
+        </span><a href="#Our_Cities"></a>Our Cities
+      </li>
+
+    </div>
+    <div class="cardbtn">
+      <a class="cardstylebtn" href="Getcard.html" alt=""> <button class="btnInner">Get Your Card</button></a>
+    </div>
+
+  </nav>
+
+  <!-------------------------------------------- Intro part--------------------------------------->
+
+  <div id="#content"
+    class="introsection max-w-[1100px] my-[10px] mx-auto h-auto px-[15px] flex items-center justify-center content-center">
+    <div class="container-responsive m-auto h-auto flex flex-wrp justify-center items-center" style="
+    padding-top: 0;
+">
+      <div class="leftside fit-content flex flex-col w-[45%] h-full top-0 text-left space-y-5 "><span
+          class="text-3xl text-black font-bold font-Manrope">Say Hi to</span>
+        <h1 class="text-5xl font-bold text-blue-500">AutoCards</h1>
+        <span class="text-xl font-semibold text-blue-400">Co-branded Card Issuers :</span>
+        <div class="sponsors items-center gap-5 w-[90px] mx-6 py-3 my-2 flex p-0">
+          <img src="Images/IRCTC-Symbol.png" alt="">
+          <img src="Images/Metro.jpg" alt="">
+          <img src="Images/Ministry_of_Road_Transport_and_Highways.jpg" alt="">
+          <img class="wbtclogo h-[70px]" src="Images/wbtcLogo.png" alt="">
+        </div>
+        <span class="text-lg">India's first Autocard. Built with full-stack tech. Backed by the principles of
+          simplicity, transparency,
+          and giving back control to the user.</span>
+        <div
+          class="cardbtn border-0 items-center content-center justify-center">
+          <a href="" class="cardstylebtn border-0"><button class="btnInner border-0">Coming Soon</button></a>
+        </div>
+      </div>
+      <div class="rightside fit-content w-[55%] px-[25px]  text-right h-auto float-right"> <img
+          class="m-2 rounded-lg md:w-[100px] w-[550px]" src="Images/Introtheme.jpg" alt="">
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-------------------------------------- Fees and Charges ------------------------------------>
+
+  <div id="" class="fees h-auto bg-black text-white mx-auto">
+    <div class="container max-w-[1100px] mx-auto py-14 items-center justify-center text-center">
+      <br>
+      <h1
+        class="text-[4rem] py-3 bg-gradient-to-r from-[#217ee6] from-10% via-[#3187d5] via-40% via-[#69a798] via-70% to-[#fcf2a6] to-90% bg-clp-text fill-transparent ">
+        No Hidden Fees Ever.</h1>
+      <br>
+      <div class="">
+        <span class="text-[3rem]">No Joining Fees.</span>
+        <br>
+        <span class="text-[3rem]">No Annual Fees.</span>
+        <br>
+        <span class="text-[3rem]">No Rewards Redemption Fees.</span>
+      </div>
+    </div>
+  </div>
+
+  <!----------------------------------------- About Section ------------------------------------->
+
+  <div id="#AboutUS" class="About mx-auto flex items-center justify-center content-center">
+    <div class="container-responsive my-8 flex max-w-[1300px]">
+      <div class="leftside fit-content w-1/2 h-auto float-left">
+        <img class="m-2 aboutimage rounded-lg w-auto h-auto" src="Images/istockphoto-903663312-612x612.jpg" alt="">
+      </div>
+      <div class="rightside fit-content w-1/2 text-right bg-white">
+        <h1
+          class="text-[3rem]  font-bold py-3 px-3 mx-auto w-fi content-center bg-gradient-to-r from-slate-400 from-10% via-slate-300 via-40% via-slate-200 via-70% to-slate-100 to-90% bg-clp-text fill-transparent ">
+          INTRODUCING AUTOCARDS</h1>
+        <br>
+        <p class=" font-semibold text-gray-600 text-[1.5rem]">A scan to pay system, linked to
+          your bank account directly, or autopay wallet.</p>
+        <br>
+        <p class="font-semibold text-gray-600 text-[1.5rem]">A simple scanning machine attached to
+          autos with contactless Auto-cards just like metro cards.</p>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------------------ Not having change  --------------------------------------->
+
+  <div class="cashless mx-auto paddingcommon flex items-center justify-center content-center bg-gray-200 ">
+    <div class="cashlesscontainer container-responsive gap-[17.25rem] my-8 flex max-w-[1300px]">
+      <div class="leftside fit-content flex flex-col justify-center content-center w-1/2 h-auto float-left">
+        <div class="logo">
+          <img class="w-[80px]" src="Images/Family_icon_for_web.png" alt="">
+        </div>
+        <span class="text-[4rem] font-semibold">Not having change?</span>
+        <br>
+        <span class="text-[1.6rem] text-gray-600">No need to worry anymore! You no longer have to carry loose change or
+          cash for traveling in autos. The old days are gone; welcome to the new era of digital autos of India.<br> With
+          our AutoCard, you can now make your transactions within seconds with just a few taps.
+        </span>
+      </div>
+      <div id="cashlessvideo" class="rightside items-center content-center flex flex-wrap w-1/2 float-right">
+        <video class="rounded-xl float-right w-[500px] " autoplay="autoplay" muted="muted" loop="loop"
+          src="Video/change.mp4"></video>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------------------ Pay with phone  ---------------------------------------->
+
+  <div class="paywithphone mx-auto px-[15px] flex items-center justify-center content-center ">
+    <div class="container-responsive gap-5 my-8 flex max-w-[1300px]">
+      <div class="leftside fit-content flex justify-center items-center content-center w-1/2 h-auto float-left">
+        <div class="video"><video class="w-full h-auto" autoplay="autoplay" loop="loop" muted="muted"
+            src="Images/payment big.mp4"></video>
+        </div>
+      </div>
+
+      <div class="rightside fit-content text-right w-1/2">
+        <div class="logo relative text-right right-0 float-right">
+          <img class="absolute top-0 right-0" src="https://www.getonecard.app/images/feature/control_app_icon.svg"
+            alt="">
+        </div>
+        <br><br><br><br>
+        <div class="flex flex-col text">
+          <span class="text-[4rem] font-semibold w-full">Forgot your Card?</span>
+          <br>
+          <span class="text-[1.6rem] text-gray-600">Don't worry! Now you can generate digital QR in your phone and just
+            scan.</span>
+          <br>
+          <span class="text-[1.6rem] text-gray-600">Smooth and hasseless payment with just few taps.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----------------------------------- Offers Section ---------------------------------------->
+
+  <div id="#Offers" class="offers mx-auto paddingcommon flex items-center justify-center content-center bg-gray-200">
+    <div class="offerscontainer container-responsive gap-5 my-8 flex max-w-[1300px]">
+      <div class="leftside fit-content flex flex-col justify-center content-center w-1/2 h-auto float-left">
+        <div class="logo">
+          <img src="https://www.getonecard.app/images/feature/rewards_icon.svg" alt="">
+        </div>
+        <span class="text-[3rem]">Joining bonus</span>
+        <div class="readcontainer">
+          <p class="readcontent text-[1.5rem] text-gray-600">Exciting offers and a Free* bonus card balance await
+            first-time users.
+            <br> Don't miss out on this opportunity to save while enjoying our services. Grab your bonus card today and
+            start enjoying exclusive benefits!
+          </p>
+          <button class="readMoreBtn items-center flex justify-center" id="readMoreBtn">
+            <span>Read More</span>
+            <span class="material-symbols-outlined">keyboard_double_arrow_down</span>
+          </button>
+        </div>
+        <br>
+        <span class="text-[3rem]">Plans</span>
+        <div class="readcontainer1 readcontainer">
+          <p class="readcontent1 readcontent text-[1.5rem] text-gray-600">Offering affordable and diverse plans tailored
+            for students, working professionals, and senior citizens. <br> We believe in providing accessible options
+            for everyone, ensuring that individuals from all walks of life can benefit from our services. <br>Whether
+            you're a student on a tight budget, a busy professional, or a senior citizen looking for cost-effective
+            solutions, we have something for everyone.
+          </p>
+          <button class="readMoreBtn items-center flex justify-center" id="readMoreBtn1">
+            <span>Read More</span>
+            <span class="material-symbols-outlined">keyboard_double_arrow_down</span>
+          </button>
+        </div>
+        <br>
+        <span class="text-[3rem]">Pakages</span>
+        <div class="readcontainer2 readcontainer">
+          <p class="readcontent2 readcontent text-[1.5rem] text-gray-600">Save more with weekly, monthly, and annual
+            plans. <br> Get the best value for your money by choosing a plan that suits your needs and budget. <br>
+            Whether you're looking for short-term savings or long-term benefits, we have a plan for you.<br>Start saving
+            today and enjoy the perks of our flexible subscription options.
+          </p>
+          <button class="readMoreBtn items-center flex justify-center" id="readMoreBtn2">
+            <span>Read More</span>
+            <span class="material-symbols-outlined">keyboard_double_arrow_down</span>
+          </button>
+        </div>
+
+      </div>
+      <div class="offersrightside fit-cotent items-center content-center flex flex-wrap float-right w-1/2 text-right">
+        <div class="image text-right float-right m-2">
+          <video autoplay="autoplay" muted="muted" loop="loop" class="rounded-lg w-[500px] h-auto "
+            src="Images/ZC4jn5cP224x6Hi0D7.mp4" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----------------------------------------- Cities  ------------------------------------------->
+
+  <div id="#Our_Cities" class="cities mx-auto paddingcommon flex items-center justify-center content-center ">
+    <div class="container-responsive gap-5 my-8 flex max-w-[1300px]">
+      <div
+        class="leftside fit-content bg-yello-500 flex flex-col justify-center content-center w-1/2 h-auto float-left">
+        <div class="items-center text-left gap-5 mx-6 py-3 my-2 flex p-0 images">
+          <div class="video">
+            <video class=" float-left w-[400px] h-auto " autoplay="autoplay" muted="muted" loop="loop"
+              src="Images/6km674nqMel8x8Gpv5.mp4"></video>
+          </div>
+
+          <!-- <img class="" src="Images/Patna.jpeg" alt=""> -->
+        </div>
+      </div>
+      <div class="rightside fit-content w-1/2">
+        <div class="heading text-center items-center justify-center">
+          <div class="image w-[120px] float-right h-auto">
+            <video autoplay="autoplay" loop="loop" muted="muted" src="Images/comingsoonanimation.mp4"></video>
+          </div> <br><br><br>
+          <span class=" text-[3rem] font-semibold">Coming soon in these Cities!</span><br>
+          <div class="cityimages justify-center items-center gap-4 py-5 my-8 flex">
+            <div class="img">
+              <img class="h-[200px] w-auto rounded-xl " src="Images/Victoria-Memorial.webp" alt="">
+              <span class="text-[1.6rem]">Kolkata</span>
+            </div>
+            <div class="img">
+              <img class="h-[200px] w-auto rounded-xl " src="Images/Lucknow.jpeg" alt="">
+              <span class="text-[1.6rem]">Lucknow</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------------------------- FAQ section  ----------------------------------------->
+  <div id="#FAQ" class="FAQ bg-gray-200">
+    <div class="Heading items-center justify-center flex flex-col self-center">
+      <div class="logo">
+        <br>
+        <img src="https://www.getonecard.app/images/about/faq.svg" alt="">
+      </div>
+      <br>
+      <div id="_FAQ">
+        <span class="text-[4rem] font-semibold">Frequently Asked </span>
+        <span class="text-[4rem] font-semibold" style="color:rgba(0,147,247,1);">Questions</span><br><br>
+      </div>
+    </div>
+    <div class="questions py-10 mt-5">
+      <div class="container py-5 my-4 max-w-[960px] paddingcommon mx-auto">
+        <div class="panel space-y-5">
+
+          <div class="question-1 ">
+
+            <button
+              class="question1 w-full questioncommon p-[15px] rounded-2xl flex justify-center items-center cursor-pointer">What
+              is AutoCard?
+              <div class="expandicon float-right material-symbols-outlined">
+                expand_more
+              </div>
+            </button>
+
+
+            <div class="answer-1 rounded-xl w-full absolute ">
+              <h1 class="answer1 answercommon w-full" href="">AutoCard is a contactless card designed to make your daily
+                auto travels more convenient and dependable. It replaces the old tradition of using cash with a new
+                payment method requiring just a single tap.</h1>
+            </div>
+          </div>
+
+
+          <div class="question-2">
+            <button
+              class="question2 questioncommon  w-full p-[15px] rounded-2xl flex justify-center items-center cursor-pointer">How
+              can I apply for AutoCard?
+              <span class="expandicon material-symbols-outlined">
+                expand_more
+              </span>
+            </button>
+
+            <div class="answer-2 rounded-xl w-full  absolute ">
+              <h1 class="answer2 answercommon w-full" href="">Very soon, you'll be able to apply for an AutoCard through
+                this website and collect it from your nearest store once we're fully operational. We're gearing up to
+                launch AutoCard services in Kolkata and Lucknow. Stay tuned to our social media channels for regular
+                updates.</h1>
+            </div>
+          </div>
+          <div class="question-3">
+            <button
+              class="question3 questioncommon bg-white w-full p-[15px] rounded-2xl flex justify-center items-center cursor-pointer">Is
+              this a contactless card?
+              <span class="expandicon material-symbols-outlined">
+                expand_more
+              </span>
+            </button>
+            <div class="answer-3 rounded-xl w-full  absolute ">
+              <h1 class="answer3 answercommon w-full" href="">Yes, the Autocard is a contactless card. It means you can
+                tap your card at a terminal to pay without having to input any PIN.This is what sets your transaction
+                apart, making it super fast and different compared to UPI transactions.</h1>
+            </div>
+          </div>
+          <div class="question-4">
+            <button
+              class="question4 questioncommon bg-white w-full p-[15px] rounded-2xl flex justify-center items-center cursor-pointer">Why
+              should I use AutoCard?
+              <span class="expandicon material-symbols-outlined">
+                expand_more
+              </span>
+            </button>
+            <div class="answer-4 rounded-xl w-full  absolute ">
+              <h1 class="answer4 answercommon w-full" href="">AutoCard simplifies your life. In this era where
+                everything is going online and not everyone prefers to use cash, with AutoCard, you don't have to worry
+                about the change while traveling. Just tap and pay.</h1>
+            </div>
+          </div>
+          <div class="question-5">
+            <button
+              class="question5 questioncommon bg-white w-full p-[15px] rounded-2xl flex justify-center items-center cursor-pointer">
+              What should I do if I've lost or misplaced my AutoCard?
+              <span class="expandicon material-symbols-outlined">
+                expand_more
+              </span>
+            </button>
+
+            <div class="answer-5 rounded-xl w-full absolute ">
+              <h1 class="answer5 answercommon w-full" href="">Don't panic, as your card isn't linked to any bank
+                account. You can easily block your card with just a few steps and request a new one. The remaining
+                balance from your previous card will be transferred to the new one.</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="style!v=2.js"></script>
+  </div>
+
+  <!-------------------------------------- Ending and footer ------------------------------>
+
+  <div class="ending items-center justify-center flex text-center">
+    <div class="container max-w-[960px] flex items-center justify-center content-center text-center">
+      <div class="block paddingcommon">
+        <img class="my-5" src="https://www.getonecard.app/images/icons/crafted_with_love.svg" alt="">
+        <br>
+        <div class="" id="_Ears"> We are all ears!<br><br></div>
+        <div class=" " id="_NewKid"> We are a new kid on the block, eager to
+          learn.
+          <br> All ideas and suggestions are welcome.
+        </div><br><br>
+        <div class=" text-white" id="_FollowUs"> Follow Us On</div><br>
+        <div class="icons flex gap-5 my-5 items-center justify-center content-center text-center">
+          <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-facebook.svg" alt=""></a>
+          <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-twitter.svg" alt=""></a>
+          <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-instagram.svg" alt=""></a>
+          <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-linkedin.svg" alt=""></a>
+          <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-youtube.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="links items-center justify-center text-left flex ">
+    <div class="rows flex justify-center content-center">
+      <div class="box1 w-1/2">
+        <h5 class="mb-4 font-bold text-white">Important Links</h5>
+        <p> <a class="text-primary" href="Cookies.html">Cookie Policy</a> </p>
+        <p> <a class="text-primary" href="dnd.html">Do Not Disturb</a> </p>
+        <p> <a class="text-primary" href="privacypolicy.html">Privacy Policy</a> </p>
+        <p> <a class="text-primary" href="terms.html">Terms Of Use</a> </p>
+        <p> <a class="text-primary" href="badlanguage.html">Unparliamentary language</a> </p>
+        <p> <a class="text-primary" href="Secure_usage_tips.html">Secure Usage Tips</a> </p>
+        <p> <a class="text-primary" href="disclaimer.html"> Disclaimers </a> </p>
+      </div>
+      <div class="box2 w-1/2">
+        <h5 class="mb-4 font-weight-bold text-white">Company</h5>
+        <p> <a class="text-primary" href="Aboutus.html">About Us</a> </p>
+        <p> <a class="text-primary" href="joinus.html">Join Us</a> </p>
+        <p> <a class="text-primary" href="../../offers/">AutoCard Offers</a> </p>
+        <p> <a class="text-primary" href="blog.html">Our Blog</a> </p>
+        <p> <a class="text-primary" href="certificate.html">Registration Certificate</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footersponsors flex">
+    <div class="lists items-center flex">
+      <img src="Images/IRCTC-Symbol.png" alt="">
+      <img src="Images/Metro.jpg" alt="">
+      <img class="invert" src="Images/Ministry_of_Road_Transport_and_Highways.jpg" alt="">
+      <img class="wbtc" src="Images/wbtcLogo.png" alt="">
+    </div>
+  </div>
+
+  <div class="footer px-[9px] py-[20px] bg-black">
+    <footer class="text-white  text-center">
+      Copyright &copy; www.Auto-cards.online. All rights reserved!
+    </footer>
+  </div>
+</body>
+</html>

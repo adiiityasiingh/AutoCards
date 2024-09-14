@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Terms of Use</title>
+    <link rel="icon rounded-2xl" type="image/x-icon" href="Images/favicon-16x16.png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+    <link rel="stylesheet" href="\TailwindCSS\output.css">
+    <link rel="stylesheet" href="style!v=2.css">
+    <link rel="stylesheet" href="style!v=2.js">
+    <link rel="stylesheet" href="cookies.css">
+</head>
+
+<body>
+    <button onclick="scrollToTop()" class="scrollTopBtn" id="scrollTopBtn">
+        <span style="font-size: 25px; font-weight: 400;" class="material-symbols-outlined">
+            keyboard_arrow_up
+        </span>
+    </button>
+    <script>
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            var scrollTopBtn = document.getElementById("scrollTopBtn");
+
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollTopBtn.style.display = "flex";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        }
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+    <nav
+        class="navbar my-auto py-[15px] px-2 top-0 flex gap-8 justify-center items-center  bg-white text-black border sticky">
+        <div class="navbarlogo w-1/3">
+            <a href="index.html"><img class="rounded-md w-12 hover:cursor-pointer" src="Images/LOGO.jpg"
+                    alt="AutoCards"></a>
+        </div>
+
+        <span class="menuicon material-symbols-outlined">
+            menu
+        </span>
+        <span class="closeicon material-symbols-outlined">
+            close
+        </span>
+        <div>
+            <ul class="p-2 navbarstyle flex items-center content-center space-x-8 gap-1">
+                <li
+                    class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                    <span class="material-symbols-outlined">home</span><a href="index.html">Home</a>
+                </li>
+                <li
+                    class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                    <span class="material-symbols-outlined">
+                        psychology_alt
+                    </span>
+                    <a href="Aboutus.html">About Us</a>
+                </li>
+                <li
+                    class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                    <span class="material-symbols-outlined">
+                        celebration
+                    </span><a href="#Offers">Offers</a>
+                </li>
+                <li
+                    class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                    <span class="material-symbols-outlined">
+                        quiz
+                    </span>FAQ
+                </li>
+                <li
+                    class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                    <span class="material-symbols-outlined">
+                        apartment
+                    </span>Our Cities
+                </li>
+            </ul>
+        </div>
+
+        <div class="dropdown-menu">
+
+            <li
+                class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                <span class="material-symbols-outlined">home</span><a href="index.html">Home</a>
+            </li>
+            <li
+                class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                <span class="material-symbols-outlined">
+                    psychology_alt
+                </span>
+                <a href="Aboutus.html">About Us</a>
+            </li>
+            <li
+                class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                <span class="material-symbols-outlined">
+                    celebration
+                </span><a href="#Offers">Offers</a>
+            </li>
+            <li
+                class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                <span class="material-symbols-outlined">
+                    quiz
+                </span>FAQ
+            </li>
+            <li
+                class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                <span class="material-symbols-outlined">
+                    apartment
+                </span>Our Cities
+            </li>
+
+        </div>
+        <div class="cardbtn bg-blue-500 rounded-md p-[5px] fixed font-bold hover:bg-blue-600 text-white">
+            <button><a href="Getcard.html">Get Your Card</a></button>
+        </div>
+
+        <script>
+            const toggleBtn = document.querySelector('.menuicon')
+            const dropdownmenu = document.querySelector('.dropdown-menu')
+            toggleBtn.onclick = function () {
+                dropdownmenu.classList.toggle('open')
+            }
+        </script>
+    </nav>
+
+    <!------------------------------------- Cookies section  -------------------------------->
+    <section class="legal py-14 justify-center items-center flex">
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <div class="title">
+                        <h1>Terms of Use</h1> <br>
+                    </div>
+                    <div class="body">
+                        <p>These terms of use (Terms) constitute a legally binding agreement between User or you (as
+                            defined below) and AutoCards Pvt. Ltd. (the “<strong>Company</strong>” /
+                            “<strong>AutoCard</strong>”) regarding your use of the <a class="text-blue-500"
+                                href="index.html">AutoCard web site</a> (the Site) and
+                            other associated services.</p>
+                        <p>“<strong>User</strong>” or “<strong>You</strong>” means any person who accesses, avails, or
+                            uses this website or the app of the Company for the purpose of hosting, publishing, sharing,
+                            transacting, displaying or uploading information or views and includes other persons jointly
+                            participating in using the site or the app of the Company.</p>
+                        <p>By accessing the Site, App or Service , you agree to be bound by these Terms. You hereby
+                            represent and warrant to the Company that you are at least eighteen (18) years of age or
+                            above and are capable of entering, performing and adhering to these Terms and that you agree
+                            to be bound by the following terms and conditions. While individuals under the age of 18 may
+                            utilise the Service of the site, they shall do so only with the involvement and guidance of
+                            their parents and / or legal guardians.</p>
+                        <p>The Company reserves the right, at its discretion, to change, modify, add, or remove portions
+                            of these Terms at any time by posting the amended Terms. Please check these Terms
+                            periodically for changes. Your continued use of the App and Website after the posting of
+                            changes constitutes your binding acceptance of such changes. In addition, when using any
+                            particular services, you may be subject to any posted guidelines or rules applicable to such
+                            services. All such guidelines or rules are hereby incorporated by reference into the Terms.
+                            If you do not agree with the Terms, please do not use this Site or associated Apps.</p>
+                        <h4>Electronic Communication</h4>
+                        <p>When you visit <a class="text-blue-500" href="index.html">AutoCards</a> or send
+                            emails to us, you are communicating with us electronically, and you consent to receive
+                            communication from us electronically. We will communicate with you by e-mail or by
+                            posting notices on our website. You agree that all agreements, notices, disclosures, and
+                            other communications that we provide to you electronically satisfy any legal requirement
+                            that such communication be in writing.</p>
+                        <h4>License and Website Access</h4>
+                        <p><strong>General:</strong>
+                            AutoCards grants you a limited license to access and make personal use of this
+                            website and not to download (other than page caching) or modify it, or any portion of it,
+                            except with express written consent of AutoCards.</p>
+                        <p><strong>No license for commercial sale:</strong>
+                            This license does not include any resale or commercial use of this website or its content;
+                            any collection and use of any product listing, description, or pricing; copying of account
+                            information for the benefit of another merchant; or any use of data mining, or similar data
+                            gathering and extraction tools.</p>
+                        <p><strong>No reproduction:</strong>
+                            This website or any portion of this website may not be reproduced, duplicated,
+                            copied or otherwise exploited for any commercial purpose without express written consent of
+                            AutoCards.</p>
+                        <p><strong>No framing:</strong>
+                            You may not frame or utilize framing technologies to enclose any trademark, logo, or other
+                            proprietary information (including images, text, page layout, or form) of <a
+                                class="text-blue-500" href="index.html">AutoCards</a> without the express
+                            written consent of AutoCard.</p>
+                        <h4 id="repayments-refunds-and-cancellation">Repayments, Refunds and Cancellation</h4>
+                        <p><strong>Repayments:</strong></p>
+                        <p>Autocard bill repayments can be done via app through BillDesk Payment Gateway using Debit
+                            Card, Netbanking, or UPI, on the Make Payment page.
+                            In case of any issues, you can reach out to us from the app itself or email us on <a
+                                class="text-blue-500" href="mailto:autocards093@gmail.com">support@auto-cards.online</a>
+                        </p>
+                        <p><strong>Refunds and Cancellation:</strong>
+                            In case a transaction is cancelled or if any refund is due, it will be credited to the same
+                            Autocard from where the transaction was initiated.</p>
+                        <h4>Reviews, Comments, Communications,
+                            and other content</h4>
+                        <p><strong>Nature of content:</strong>
+                            Visitors to <a class="text-blue-500" href="index.html">AutoCards</a> may post
+                            content and other communications;
+                            and submit suggestions, ideas, comments, questions or other information, as long as the
+                            content is not illegal, obscene, threatening, defamatory, invasive of privacy, infringing of
+                            intellectual property rights to otherwise injuries to third party or objectionable and does
+                            not consist of or contains software virus, political campaigning, commercial solicitation,
+                            mass mailing or any form of spam.</p>
+                        <p><strong>False information:</strong>
+                            You may not use a false email address, impersonate any person or entity, or
+                            otherwise mislead as to the origin of a card or other content. AutoCard reserves the
+                            right (but not the obligation) to remove or edit such content posted on <a
+                                class="text-blue-500" href="index.html">AutoCards</a></p>
+                        <p><strong>Rights Granted:</strong>
+                            If you do post content or submit material and unless we indicate otherwise, you
+                            grant AutoCards a non-exclusive, royalty free, perpetual, irrevocable, and fully
+                            sub-licensed right to use, reproduce, modify, adapt, publish, translate, create derivative
+                            work from, distribute, and display such content throughout the world in any media. You grant
+                            AutoCard the right to use the name that you submit in connection with such content
+                            on <a class="text-blue-500" href="index.html">AutoCards</a></p>
+                        <p><strong>Right Owned:</strong>
+                            You represent and warrant that you own all the rights or otherwise or control all of the
+                            rights to the content that you post; that the content is accurate; that the use of the
+                            content to supply does not violate this policy and will not cause injury to any person or
+                            entity and that you will indemnify AutoCard for all claims resulting from the
+                            content you provide/post on <a class="text-blue-500" href="index.html">AutoCards</a>.
+                            AutoCard
+                            takes no responsibility and assumes no liability for any content posted by you or any third
+                            party.</p>
+                        <p><strong>Site Policies, Modification, and Severability</strong>
+                            We reserve the right to make changes to our website, policies, and these Terms of Use at any
+                            time. If any of these conditions shall be deemed invalid, void, or for any reason
+                            unenforceable, that condition shall be deemed severable and will not affect the validity and
+                            enforceability of any remaining conditions.</p>
+                        <h4>Recruitment</h4>
+                        <p><strong>Fraud Recruitment Offers</strong></p>
+                        <p>It has come to our notice that fake job offers are being circulated in the name of AutoCards
+                            Private Limited (“<strong>AutoCards</strong>”) by certain individuals. These
+                            individuals are also unauthorisedly using the name and trademark of AutoCards and AutoCard.
+                        </p>
+                        <p><strong>AutoCards does not:</strong></p>
+                        <p>i) send job offers from free email services like Gmail, Rediffmail, Yahoo mail, Hotmail, etc;
+                            <br>
+                            ii) request payment of any kind from prospective candidates for employment or any sort of
+                            fees; and<br>
+                            iii) request for an interview or will make any job offers on or through any instant
+                            messaging applications
+                        </p>
+
+                        <p><strong>AutoCards’s Hiring Process</strong></p>
+                        <p>i) AutoCards team only corresponds from email id <a class="text-blue-500"
+                                href="mailto:autocards093@gmail.com">openings@auto-cards.online</a> for any job
+                            opportunity at AutoCards
+                            or any other email id from the auto-cards.online domain<br>
+                            ii) All offers of AutoCards will only be made from an email id on the auto-cards.online
+                            domain<br>
+                            iii) The hiring process involves at least one in-person interview at AutoCards’s Office
+                            premises
+                        </p>
+                        <p>AutoCards will not be responsible to anyone acting on employment offers not made by AutoCards
+                            as per the
+                            hiring process set out above. AutoCards will not have any obligation to honour terms of any
+                            fake
+                            offer letter so issued, or provide employment to anyone who has been issued a fraudulent
+                            offer letter. Further, AutoCards is not responsible for any losses (monetary or otherwise)
+                            including but not limited to loss of data that are incurred as a consequence of fake job
+                            offers.</p>
+                        <p>If you are in doubt or unsure about the source of job offer or if you have received any
+                            unauthorised, suspicious or fraudulent offers or interview call, please write to us at <a
+                                class="text-blue-500"
+                                href="mailto:autocards093@gmail.com">support@auto-cards.online</a>.</p>
+                        <p>If you believe you have been a victim of a recruitment fraud, you are requested to approach
+                            the law enforcement agencies immediately.</p>
+                        <h4>Intellectual Property Rights</h4>
+                        <p><strong>Copyright Protection:</strong>
+                            All content included on the site, such as text, graphics, logos, button icons, audio and
+                            video clips, digital downloads, data compilations and software, is the property of AutoCards
+                            and protected by Indian Copyright law.</p>
+                        <p><strong>Governing Law and Jurisdiction</strong>
+                            These terms and conditions will be construed only in accordance with the laws of India. In
+                            respect of all matters/disputes arising out of, in connection with or in relation to these
+                            terms and conditions or any other conditions on this website, only the competent Courts at
+                            Pune, Maharashtra shall have jurisdiction, to the exclusion of all other courts.</p>
+                        <p><strong>Disclaimer of warranties and Limitation of Liability</strong>
+                            You agree that AutoCard Private Limited provides the website on an “as is”, “with
+                            all faults” and “as available” basis. No representations, warranties or guarantees
+                            whatsoever are made by AutoCard as to the (a) accuracy, adequacy, reliability,
+                            completeness, suitability or applicability of the information to a particular situation; (b)
+                            that the service will be uninterrupted, timely, secure, or error-free; ( c) the quality of
+                            any services, content, information, or other material on the website or Apps will meet your
+                            expectations or requirements; (d) any errors in the Site and the App will be corrected; (e)
+                            warranties against infringement of any third party intellectual property or proprietary
+                            rights; or (f) other warranties relating to performance, non-performance, or other acts or
+                            omissions of the Company, its
+                            officers, directors, employees, affiliates, agents, licensors, or suppliers.</p>
+                        <p>The Company does not warrant that any of the software used and or licensed in
+                            connection with this website or its Apps will be compatible with other browsers, third party
+                            software or devices nor does it warrant that operation of the website and Apps and the
+                            associated software will not damage or disrupt other software or hardware.</p>
+                        <p>The Company, its affiliates, successors, and assigns, and each of their respective investors,
+                            directors, officers, employees, agents, and suppliers (including distributors and content
+                            licensors) shall not be liable, at any time for any, direct, indirect, punitive, incidental,
+                            special, consequential, damages arising out of or in any way connected with the use of the
+                            website or Apps, whether based in contract, tort, strict liability, or other theory, even if
+                            the Company have been advised of the possibility of damages.</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!----------------------------- Ending section  ------------------------->
+    <div class="ending items-center justify-center flex text-center">
+        <div class="container max-w-[960px] flex items-center justify-center content-center text-center">
+            <div class="block px-[15px]">
+                <img class="my-5" src="index.htmlimages/icons/crafted_with_love.svg" alt="">
+                <br>
+                <div class="" id="_Ears"> We are all ears!<br><br></div>
+                <div class=" " id="_NewKid"> We are a new kid on the block, eager to
+                    learn.
+                    <br> All ideas and suggestions are welcome.
+                </div><br><br>
+                <div class=" text-white" id="_FollowUs"> Follow Us On</div><br>
+                <div class="icons flex gap-5 my-5 items-center justify-center content-center text-center">
+                    <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-facebook.svg" alt=""></a>
+                    <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-twitter.svg" alt=""></a>
+                    <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-instagram.svg" alt=""></a>
+                    <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-linkedin.svg" alt=""></a>
+                    <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-youtube.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="links items-center justify-center text-left flex ">
+        <div class="rows flex justify-center content-center">
+            <div class="box1 w-1/2">
+                <h5 class="mb-4 font-bold text-white">Important Links</h5>
+                <p> <a class="text-primary" href="Cookies.html">Cookie Policy</a> </p>
+                <p> <a class="text-primary" href="dnd.html">Do Not Disturb</a> </p>
+                <p> <a class="text-primary" href="privacypolicy.html">Privacy Policy</a> </p>
+                <p> <a class="text-primary" href="terms.html">Terms Of Use</a> </p>
+                <p> <a class="text-primary" href="badlanguage.html">Unparliamentary language</a> </p>
+                <p> <a class="text-primary" href="Secure_usage_tips.html">Secure Usage Tips</a> </p>
+                <p> <a class="text-primary" href="disclaimer.html"> Disclaimers </a> </p>
+            </div>
+            <div class="box2 w-1/2">
+                <h5 class="mb-4 font-weight-bold text-white">Company</h5>
+                <p> <a class="text-primary" href="Aboutus.html">About Us</a> </p>
+                <p> <a class="text-primary" href="../../careers/">Join Us</a> </p>
+                <p> <a class="text-primary" href="../../offers/">AutoCard Offers</a> </p>
+                <p> <a class="text-primary" href="../../blog/">Our Blog</a> </p>
+            </div>
+        </div>
+    </div>
+    <div class="footersponsors flex">
+        <div class="lists items-center flex">
+            <img src="Images/IRCTC-Symbol.png" alt="">
+            <img src="Images/Metro.jpg" alt="">
+            <img class="invert" src="Images/Ministry_of_Road_Transport_and_Highways.jpg" alt="">
+            <img class="wbtc" src="Images/wbtcLogo.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer px-[9px] py-[20px] bg-black">
+        <footer class="text-white  text-center">
+            Copyright &copy; www.Auto-cards.online. All rights reserved!
+        </footer>
+    </div>
+
+</body>
+
+</html>

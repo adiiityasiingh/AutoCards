@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Privacy policy</title>
+    <link rel="icon rounded-2xl" type="image/x-icon" href="Images/favicon-16x16.png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+    <link rel="stylesheet" href="\TailwindCSS\output.css">
+    <link rel="stylesheet" href="style!v=2.css">
+    <link rel="stylesheet" href="style!v=2.js">
+    <link rel="stylesheet" href="privacypolicy.css">
+</head>
+
+<body>
+    <button onclick="scrollToTop()" class="scrollTopBtn" id="scrollTopBtn">
+        <span style="font-size: 25px; font-weight: 400;" class="material-symbols-outlined">
+            keyboard_arrow_up
+        </span>
+    </button>
+    <script>
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            var scrollTopBtn = document.getElementById("scrollTopBtn");
+
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollTopBtn.style.display = "flex";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        }
+        function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+    </script>
+    <nav
+        class="navbar my-auto py-[15px] px-2 top-0 flex gap-8 justify-center items-center  bg-white text-black border sticky">
+        <div class="navbarlogo w-1/3">
+            <a href="index.html"><img class="rounded-md w-12 hover:cursor-pointer" src="Images/LOGO.jpg"
+                    alt="AutoCards"></a>
+        </div>
+
+        <span class="menuicon material-symbols-outlined">
+            menu
+        </span>
+        <span class="closeicon material-symbols-outlined">
+            close
+        </span>
+        <div>
+            <ul class="p-2 navbarstyle flex items-center content-center space-x-8 gap-1">
+                <li
+                    class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                    <span class="material-symbols-outlined">home</span><a href="index.html">Home</a>
+                </li>
+                <li
+                    class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                    <span class="material-symbols-outlined">
+                        psychology_alt
+                    </span>
+                    <a href="Aboutus.html">About Us</a>
+                </li>
+                <li
+                    class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                    <span class="material-symbols-outlined">
+                        celebration
+                    </span><a href="#Offers">Offers</a>
+                </li>
+                <li
+                    class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                    <span class="material-symbols-outlined">
+                        quiz
+                    </span>FAQ
+                </li>
+                <li
+                    class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                    <span class="material-symbols-outlined">
+                        apartment
+                    </span>Our Cities
+                </li>
+            </ul>
+        </div>
+
+        <div class="dropdown-menu">
+
+            <li
+                class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                <span class="material-symbols-outlined">home</span><a href="index.html">Home</a>
+            </li>
+            <li
+                class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                <span class="material-symbols-outlined">
+                    psychology_alt
+                </span>
+                <a href="Aboutus.html">About Us</a>
+            </li>
+            <li
+                class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                <span class="material-symbols-outlined">
+                    celebration
+                </span><a href="#Offers">Offers</a>
+            </li>
+            <li
+                class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                <span class="material-symbols-outlined">
+                    quiz
+                </span>FAQ
+            </li>
+            <li
+                class="flex justify-center items-center hover:bg-gray-400 hover:cursor-pointer p-[3px] hover:rounded-xl font-bold ">
+                <span class="material-symbols-outlined">
+                    apartment
+                </span>Our Cities
+            </li>
+
+        </div>
+        <div class="cardbtn bg-blue-500 rounded-md p-[5px] fixed font-bold hover:bg-blue-600 text-white">
+            <button><a href="Getcard.html">Get Your Card</a></button>
+        </div>
+
+        <script>
+            const toggleBtn = document.querySelector('.menuicon')
+            const dropdownmenu = document.querySelector('.dropdown-menu')
+            toggleBtn.onclick = function () {
+                dropdownmenu.classList.toggle('open')
+            }
+        </script>
+
+    </nav>
+
+    <!------------------------------------- Privacy Policy -------------------------------->
+    <section class="privacy py-14 justify-center items-center flex">
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <div class="title">
+                        <h1>Privacy Policy</h1> <br>
+                    </div>
+                    <div class="body">
+                        <p>We are committed to safeguarding your privacy, and this privacy policy explains how and why
+                            AutoCard Pvt. Ltd. (“We”, “Us”) collects and uses any personal information or
+                            data when someone (“You”, “Your”, “User”, “Cardholder/Cardmember”), uses the AutoCards
+                            website.</p>
+                        <h4><a></a><strong>Information provided by you</strong></h4>
+                        <p>To avail certain services on our AutoCards Website, you are required to
+                            provide some personally identifiable information for the registration process, which
+                            includes but is not limited to the following:</p>
+                        <p>• Your name<br>
+                            • Email address<br>
+                            • Mobile number<br>
+                            • Date of Birth<br>
+                            • Gender<br>
+                        <p>We may require you to provide additional details, as and when required, in order to comply
+                            with any applicable regulatory requirement or for additional services/products via the
+                            Website, as and when offered, and may also utilise data lawfully obtained from third
+                            party service providers authorised by you, including but not limited to data pertaining to
+                            provide the Website services to you, subject to the terms
+                            of this Privacy Policy.</p>
+                        <h4><a></a><strong>Express
+                                Consent</strong></h4>
+                        <p>While providing your details/documents via the Website, including but not limited to
+                            personal information as mentioned herein above, you expressly consent to AutoCards
+                            (including its
+                            marketing channels and business partners) to contact you through SMS, call and/or e-mail and
+                            to follow up with regard to the services provided through the App/Website, for imparting
+                            product knowledge, offering promotional offers running on the App/Website &amp; various
+                            other offers/services by our business partners.</p>
+                        <p>The App/Website requires you to provide consent for keying in or uploading your personal
+                            information, as may be necessary to process your application. Any personal information which
+                            requires to be keyed in or uploaded is required for enabling hassle free, faster and
+                            paperless (to the extent possible) processing of applications for financial products so
+                            opted or availed of by you.</p>
+                        <h4>
+                            <a></a><strong>Information automatically collected while using the app
+                                or website</strong>
+                        </h4>
+                        <p>We strive to keep automatically tracked information to a minimum by obtaining no permissions
+                            from the App / Website, unless absolutely necessary to enable proper functioning of the App
+                            / Website. However, we may collect information relating to your use of our App / Website
+                            such as your IP address, browser type, mobile operating system, manufacturer and model of
+                            your mobile device/computer, access time and time spent. We may also collect information
+                            about the screens/pages you view within our App / Website and other actions you take while
+                            using our App / Website.</p>
+                        <p>We may use third party services for such automatic collection, however no personally
+                            identifiable information will be shared with such third parties, unless required under
+                            applicable laws.</p>
+                        <h4></a><strong>Use
+                                of Personal Information</strong></h4>
+                        <p>We use your personal information in order to deliver and personalize services to you. This
+                            information is used for specific business purposes or for a lawful purpose to comply with
+                            the applicable laws and regulatory contractual obligations which include but are not limited
+                            to:</p>
+                        <ul>
+
+                            <li>Verifying your identity for the purposes of providing services
+                            </li>
+                            <li>Analytics for the purposes providing you with personalized offers and improving our
+                                products</li>
+                            <li>Assessing and processing applications or requests from you</li>
+                            <li>Communicating with you</li>
+                            <li>Responding to your queries</li>
+                            <li>Addressing or investigating any complaints, claims or disputes</li>
+                            <li>Preventing crime including fraud and financial crime</li>
+                            <li>Financial reporting, audit and record keeping purposes</li>
+                        </ul>
+                        <h4></a><strong>Information
+                                Sharing</strong></h4>
+                        <p>We do not share any of your personal information with any third parties except when it is
+                            requested or required by law or by any court or governmental agency or authority to
+                            disclose, for the purpose of verification of identity, or for the prevention, detection,
+                            investigation including cyber incidents, or for prosecution and punishment of offences.</p>
+                        <p>We may need to share limited personal information with our partner brands, non-bank finance
+                            companies and partners who perform services for us (eg. KYC / documents collection, card
+                            delivery, Collection Agencies and other related partners, etc) and help us operate our
+                            business. We require our partners to safeguard this information and only use your personal
+                            information for the purposes we specify.</p>
+                        <p>We may display third party online advertisements on the Website/App. We may also advertise
+                            our activities and organizational goals on other websites/apps. We may collaborate with
+                            other website/app operators as well as network advertisers to do so. We request you to read
+                            and understand such concerned third party privacy policies to understand their practices
+                            relating to advertising, including what type of information they may collect about your
+                            internet usage. No personally identifiable information is shared with any third party online
+                            advertiser or website or app as part of any such activity. We do not provide any information
+                            relating to your usage to such website operators or network advertisers.</p>
+                        <p>During your use of the App/Website, you may come across links to third party websites/apps
+                            that are not affiliated with AutoCard. AutoCard is not responsible for the privacy practices
+                            or the
+                            content of those other websites, or for any acts/ omissions by such third parties in the
+                            course of your transaction with them.</p>
+                        <h4><a></a><strong>Information Security</strong></h4>
+                        <p>We implement reasonable security practices and procedures including the International
+                            Standard IS/ISO/IEC 27001:2013, Payment Card Industry Data Security Standard (PCI-DSS v
+                            3.2.1), and RBI Cyber Security Framework.</p>
+                        <p>We take appropriate security measures to protect against unauthorised access. These include
+                            internal reviews of our data collection, storage and processing practices and security
+                            measures, including appropriate encryption and physical security measures to guard against
+                            unauthorised access to systems where we store personal data. All information gathered on our
+                            App / Website is securely stored within a controlled database. Access to the servers is
+                            password protected, controlled, and is strictly limited.</p>
+                        <p>We have implemented an industry standard incidence response policy in line with CERT-IN
+                            guidelines and applicable regulatory requirements in case of unforeseen unauthorized access
+                            or data breach.</p>
+                        <h4><a></a><strong>Data
+                                Retention</strong></h4>
+                        <p>We will retain your information for as long as it is necessary for providing you the services
+                            available on the App or Website or your request for termination of your account with us,
+                            whichever is later.</p>
+                        <p>Post termination of your account, we may keep your personal information along with your
+                            application details (if any) to comply with any applicable law and regulatory obligations,
+                            for fraud prevention purposes and for the exercise/ defense of a legal claim or for
+                            providing evidence in legal proceeding(s) if required for a period of 10 years. In case you
+                            give consent, we may also retain your personal data or financial data and shall use such
+                            data only for the purposes for which you have given your express consent.</p>
+                        <p>Post termination of your account, we may also continue to use your anonymised data aggregated
+                            or in combination with anonymised data of other users. We use this aggregated anonymised
+                            data for fraud prevention, data analysis, profiling and research purposes.</p>
+                        <p>Our partner brands and non-bank finance companies may retain your personal and financial
+                            information as per their respective privacy policies.</p>
+
+                        <p>If you wish to review, correct or rectify your sensitive personal information or withdraw
+                            your consent for processing your sensitive personal information, you may submit a request at
+                            <a class="text-blue-500" href="mailto:autocards093@gmail.com">support@auto-cards.online</a>.
+                            However, we
+                            will continue to retain your personal information as per above mentioned reasons.
+                        </p>
+                        <h4><a></a><strong>Log Files</strong>
+                        </h4>
+                        <p>This information may include Internet Protocol (IP) addresses, browser type, Internet Service
+                            Provider (ISP), referring/exit pages, operating system, date/time stamp, and/or clickstream
+                            data. We may use the collected log information about you to improve services offered to you,
+                            to improve marketing, analytics, or App / Website functionality.</p>
+                        <h4></a><strong>Confidentiality of your account</strong></h4>
+                        <p>You are solely responsible for maintaining the security of your account and must not provide
+                            these credentials to any third party. We are not responsible or liable if someone
+                            else accesses your account through the credentials they have obtained from you or through a
+                            violation by you of this Privacy Policy.</p>
+                        <h4><a></a><strong>Cookies and Do Not Track / Incognito mode
+                                settings</strong></h4>
+                        <p>The AutoCard website uses Google Analytics, a web analytics service provided by Google. This
+                            software uses cookies that are text files containing small amounts of information which are
+                            downloaded to your device when you visit a website, in order to provide a personalised
+                            browsing experience. These cookies help Google identify unique users, unique sessions,
+                            gather information and store information. No personally identifiable information is
+                            retrieved or stored.</p>
+                        <p>Cookies allow users to navigate between pages efficiently, remembering their preferences, and
+                            generally improving their browsing experience. These cookies collect information analytics
+                            about how users use a website, for instance, often visited pages, time spent on each page
+                            etc. All information collected by third party cookies is aggregated and therefore anonymous.
+                            By using the AutoCard website, the user agrees that these types of cookies can be placed on
+                            his / her device. The user is free to disable/ delete these cookies by changing his / her
+                            web browser settings. AutoCards and its affiliates are not responsible for cookies placed in
+                            the
+                            device of Users by any other website and information collected thereto. For more details,
+                            you can view our <a class="text-blue-500" href="Cookies.html">Cookie Policy</a>.</p>
+                        <p>Use of the AutoCard Website shall be deemed to mean that the User has read this Privacy
+                            Policy and that the User authorises AutoCards Pvt. Ltd. to exchange, share, part with all
+                            information
+                            related to the details and transaction history of the Users to its affiliates,
+                            banks, financial institutions, Credit Information Companies (CICs), agencies, participation
+                            in any telecommunication or electronic clearing network as may be required by law, customary
+                            practice, credit reporting, statistical analysis and credit scoring, verification or risk
+                            management and shall not hold AutoCard liable for use or disclosure of this information.</p>
+                        <h4><a></a><strong>Grievance Redressal Policy</strong></h4>
+                        <p>If you have any grievance or complaint, questions, comments, concerns or feedback in relation
+                            to the processing of information or regarding this Privacy Policy or any other privacy or
+                            security concern related to the App / Website, you can send an email to <b>Aditya Singh</b>
+                            on <a class="text-blue-500"
+                                href="mailto:autocards093@gmail.com">admin@auto-cards.online</a>.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+
+    <!----------------------------- Ending section  ------------------------->
+    <div class="ending items-center justify-center flex text-center">
+        <div class="container max-w-[960px] flex items-center justify-center content-center text-center">
+            <div class="block px-[15px]">
+                <img class="my-5" src="https://www.getonecard.app/images/icons/crafted_with_love.svg" alt="">
+                <br>
+                <div class="" id="_Ears"> We are all ears!<br><br></div>
+                <div class=" " id="_NewKid"> We are a new kid on the block, eager to
+                    learn.
+                    <br> All ideas and suggestions are welcome.
+                </div><br><br>
+                <div class=" text-white" id="_FollowUs"> Follow Us On</div><br>
+                <div class="icons flex gap-5 my-5 items-center justify-center content-center text-center">
+                    <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-facebook.svg" alt=""></a>
+                    <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-twitter.svg" alt=""></a>
+                    <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-instagram.svg" alt=""></a>
+                    <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-linkedin.svg" alt=""></a>
+                    <a href="socialmedia.html" target="_blank"><img src="Images/footer-social-youtube.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="links items-center justify-center text-left flex ">
+        <div class="rows flex justify-center content-center">
+            <div class="box1 w-1/2">
+                <h5 class="mb-4 font-bold text-white">Important Links</h5>
+                <p> <a class="text-primary" href="Cookies.html">Cookie Policy</a> </p>
+                <p> <a class="text-primary" href="dnd.html">Do Not Disturb</a> </p>
+                <p> <a class="text-primary" href="privacypolicy.html">Privacy Policy</a> </p>
+                <p> <a class="text-primary" href="terms.html">Terms Of Use</a> </p>
+                <p> <a class="text-primary" href="badlanguage.html">Unparliamentary language</a> </p>
+                <p> <a class="text-primary" href="Secure_usage_tips.html">Secure Usage Tips</a> </p>
+                <p> <a class="text-primary" href="disclaimer.html"> Disclaimers </a> </p>
+            </div>
+            <div class="box2 w-1/2">
+                <h5 class="mb-4 font-weight-bold text-white">Company</h5>
+                <p> <a class="text-primary" href="Aboutus.html">About Us</a> </p>
+                <p> <a class="text-primary" href="../../careers/">Join Us</a> </p>
+                <p> <a class="text-primary" href="../../offers/">AutoCard Offers</a> </p>
+                <p> <a class="text-primary" href="../../blog/">Our Blog</a> </p>
+                <p> <a class="text-primary" href="certificate.html">Registration Certificate</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="footersponsors flex">
+        <div class="lists items-center flex">
+            <img src="Images/IRCTC-Symbol.png" alt="">
+            <img src="Images/Metro.jpg" alt="">
+            <img class="invert" src="Images/Ministry_of_Road_Transport_and_Highways.jpg" alt="">
+            <img class="wbtc" src="Images/wbtcLogo.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer px-[9px] py-[20px] bg-black">
+        <footer class="text-white  text-center">
+            Copyright &copy; www.Auto-cards.online. All rights reserved!
+        </footer>
+    </div>
+
+</body>
+
+</html>
